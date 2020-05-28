@@ -5,10 +5,10 @@ import cors from 'cors';
 
 import indexRoutes from './routes/index'
 
-// Initializations
+// Initializaciones
 const app: Application = express();
 
-// Settings
+// Configuraciones
 app.set('port', process.env.PORT || 4000);
 
 // Middlewares

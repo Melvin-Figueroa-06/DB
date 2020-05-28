@@ -1,3 +1,4 @@
+//Initializaciones mu app
 import app from './app';
 import { startConnection } from './database'
 
