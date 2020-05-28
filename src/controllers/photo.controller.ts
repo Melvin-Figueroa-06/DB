@@ -1,8 +1,13 @@
+
+
+
+
+
 import { Request, Response } from 'express'
 import fs from 'fs-extra';
 import path from 'path'
 
-// Models
+// Modelos
 import Photo, { IPhoto } from '../models/Photo';
 
 export async function getPhotos(req: Request, res: Response): Promise<Response> {

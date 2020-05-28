@@ -4,10 +4,10 @@ const router = Router();
 import upload from '../libs/multer'
 import { getPhotos, createPhoto, deletePhoto, getPhoto, updatePhoto } from '../controllers/photo.controller'
 
-// middleware
+
 // router.use(upload.single('image'));
 
-// routes
+//------ routes
 router.route('/photos')
     .get(getPhotos)
     .post(upload.single('image'), createPhoto);
